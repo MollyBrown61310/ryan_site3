@@ -49,7 +49,7 @@ body {
   background: url("background_home2.png") no-repeat center center/cover;
   background-size: cover;
   background-position: center;
-  display: inline-block;
+  display: inline-flex;
   align-items: center;
   padding: 70px 10% 0;
 }
