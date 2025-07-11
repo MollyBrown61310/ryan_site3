@@ -31,11 +31,11 @@ body {
 }
 .navbar a {
   display: inline-block;
-  font-size: 5px;
+  font-size: 30px;
   color: #161111;
   text-decoration: none;
   font-weight: 500;
-  margin-left: 35px;
+  margin-right: 30px;
   transition: 0.3s;
   opacity: 0;
   animation: slideTop 0.5s ease forwards;
