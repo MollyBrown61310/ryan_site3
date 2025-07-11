@@ -11,7 +11,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width:100%;
+  width: 100%;
   padding: 20px 10%;
   background: transparent;
   display: flex;
@@ -25,7 +25,7 @@ body {
   font-size: 25px;
   color:#161111;
   text-decoration: none;
-  font-weight: 600;;
+  font-weight: 600;
   
 }
 .navbar a {
