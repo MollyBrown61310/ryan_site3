@@ -128,6 +128,12 @@ body {
   letter-spacing: 1px;
   text-decoration: none;
   font-weight: 600;
+  opacity: 0;
+  animation: slideTop 1s ease forwards;
+  animation-delay: 2s;
+  box-shadow: 0 0 5px #e6941b,
+  0 0 25px #161111;
+  
 }
 
 .btn-box:hover {
