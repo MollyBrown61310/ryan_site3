@@ -19,16 +19,8 @@ body {
   align-items: center;
   z-index: 100;
 }
-.logo {
-  position: relative;
-  font-size: 25px;
-  color: #161111;
-  text-decoration: none;
-  font-weight: 600;
-  cursor: default;
-  opacity: 0;
-  animation: slideRight is ease forwards;
-}
+
+
 .navbar a {
   display: inline-block;
   font-size: 25px;
