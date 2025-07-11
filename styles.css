@@ -84,7 +84,7 @@ body {
   margin: -3px 0;
   opacity: 0;
   animation: slideRight 1s ease forwards;
-  animation-delay: 0.1s;
+  animation-delay: 1s;
 }
 .home-content p {
   font-size: 20px;
