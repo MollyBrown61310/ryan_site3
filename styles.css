@@ -15,7 +15,7 @@ body {
   height: 100px;
   padding: 20px 10%;
   background: transparent;
-  display: flex;
+  display: inline-block;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
