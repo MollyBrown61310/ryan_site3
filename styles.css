@@ -22,10 +22,10 @@ body {
 
 .navbar a {
   display: inline-block;
-  font-size: 20px;
+  font-size: 15px;
   color: #161111;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 400;
   margin-right: 30px;
   transition: 0.3s;
   opacity: 0;
