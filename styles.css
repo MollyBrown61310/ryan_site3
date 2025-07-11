@@ -20,9 +20,14 @@ body {
   z-index: 100;
 }
 
-
+.logo{
+  position: relative;
+  font-size: 25px;
+  color:#161111;
+  text-decoration: none;
+  font-weight: 600;;
   
-
+}
 .navbar a {
   display: inline-block;
   font-size: 25px;
@@ -52,7 +57,7 @@ body {
   background: url(background_home2.png) no-repeat;
   background-size: cover;
   background-position: center;
-  display: flex;
+  display:flex;
   align-items: center;
   padding: 70px 10% 0;
 }
