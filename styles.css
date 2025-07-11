@@ -20,7 +20,7 @@ body {
   z-index: 100;
 }
 .logo {
-  position: relative;
+  position: left;
   font-size: 25px;
   color: #161111;
   text-decoration: none;
@@ -40,7 +40,7 @@ body {
   opacity: 0;
   animation: slideTop 0.5s ease forwards;
   animation-delay: calc(0.2s * var(--i));
-  gap: 16px;
+  
 }
 .navbar a:hover {
   color: #e6941b;
