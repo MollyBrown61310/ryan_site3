@@ -33,6 +33,9 @@ body {
   animation-delay: calc(0.2s * var(--i));
   
 }
+
+
+
 .navbar a:hover {
   color: #e6941b;
 }
