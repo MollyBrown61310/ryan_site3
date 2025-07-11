@@ -108,7 +108,7 @@ body {
   transition: 0.5s ease;
   opacity: 0;
   animation: slideLeft 1s ease forwards;
-  animation-delay: calc(0.2s * var(--i));
+  animation-delay: calc(.2s * var(--i));
 
   margin: 30px 15px 30px 0;
 }
