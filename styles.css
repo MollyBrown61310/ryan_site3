@@ -14,7 +14,7 @@ body {
   width:150%;
   padding: 20px 10%;
   background: transparent;
-  display: flex;
+  
   justify-content: space-between;
   align-items: center;
   z-index: 100;
