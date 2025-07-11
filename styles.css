@@ -24,11 +24,9 @@ body {
   display: inline-block;
   font-size: 20px;
   color: #161111;
-  margin-left: 70px;
-  padding-top: 23px;
-  
+  text-decoration: none;
   font-weight: 500;
-
+  margin-right: 30px;
   transition: 0.3s;
   opacity: 0;
   animation: slideTop 0.5s ease forwards;
