@@ -39,6 +39,7 @@ body {
   transition: 0.3s;
   opacity: 0;
   animation: slideTop 0.5s ease forwards;
+  animation-delay: calc(.2s * var(--i));
 }
 .navbar a:hover {
   color: #e6941b;
