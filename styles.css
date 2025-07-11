@@ -30,7 +30,7 @@ body {
   animation: slideRight is ease forwards;
 }
 .navbar a {
-  display: inline-block;
+  display: center;
   font-size: 25px;
   color: #161111;
   text-decoration: none;
