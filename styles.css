@@ -169,6 +169,12 @@ body {
   margin: 15px 0 30px;
 }
 
+.about-text p {
+  font-size: 20px;
+  color: #161111;
+  line-height: 1.4;
+  margin-bottom: 4rem;
+}
 
 
 
