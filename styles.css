@@ -289,9 +289,26 @@ body {
   margin-bottom: 2rem;
 }
 
+.contact-list{
+  margin-bottom: 3rem;
+}
+
 .contact-list li{
   margin-bottom: 10px;
   display: block;
+}
+
+.contact-list li{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.contact-list i {
+  display: inline-block;
+  color:#e6941b;
+  font-size: 20px;
+  font-weight: 600;
+  transition: all .40s ease;
 }
 
 
