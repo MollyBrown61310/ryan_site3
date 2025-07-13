@@ -387,7 +387,29 @@ body {
   
 }
 
+.contact-form form .send:hover {
 
+   box-shadow: 0 0 5px #161111, 
+   0 0 25px #e6941b, 0 0 50px #161111,
+   0 0 100px #e6941b, 0 0 200px #161111;
+
+}
+
+.last-text p{
+  width: 100;
+  text-align: center;
+  padding: 18px;
+  background-color:rgb(121, 184, 236);
+  font-weight: 300;
+  padding: 10px;
+  
+}
+
+.top{
+  position: fixed;
+  bottom: 2.1rem;
+  right: 2.1rem;
+}
 
 
 
