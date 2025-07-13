@@ -251,6 +251,25 @@ body {
     0 0 100px #e6941b, 0 0 200px #161111;
 }
 
+.learns-list div:hover{
+  transform: translateY(-10px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @keyframes slideRight {
   0% {
