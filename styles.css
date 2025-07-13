@@ -173,7 +173,7 @@ body {
   line-height: 1.4;
   margin-bottom: 4rem;
   background: url(background_home2.png);
-   background-size: cover;
+  background-size: cover;
   background-position: center;
 }
 .sub-title {
@@ -207,6 +207,7 @@ body {
   border-radius: 20px;
   transition: background 0.5s, transform 0.5s;
   box-shadow: 1px 1px 20px #e6941b,
+  1px 1px 40px #161111
 }
 
 
