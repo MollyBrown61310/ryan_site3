@@ -134,7 +134,7 @@ body {
 }
 
 .about {
-  background: url(background_home2.png) no-repeat;
+  background-color:rgb(121, 184, 236);
   background-size: cover;
   background-position: center;
   display: grid;
@@ -172,7 +172,7 @@ body {
   font-size: 20px;
   line-height: 1.4;
   margin-bottom: 4rem;
-  background: url(background_home2.png) no-repeat;
+  background: url(background_home2.png);
    background-size: cover;
   background-position: center;
 }
@@ -199,14 +199,14 @@ body {
 }
 
 .services-list div {
-  background: url(background_home2.png) no-repeat;
+  background-color: transparent;
   padding: 40px;
   font-size: 13px;
   font-weight: 13px;
   border-right: 10px;
   border-radius: 20px;
   transition: background 0.5s, transform 0.5s;
-  box-shadow: 1px 1px 20px #e6941b;
+  box-shadow: 1px 1px 20px #e6941b,
 }
 
 
