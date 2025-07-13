@@ -210,7 +210,35 @@ body {
   1px 1px 40px #161111
 }
 
+.learns-list div i {
+  font-size: 50px;
+  margin-bottom: 30px;
 
+}
+
+.learns-list div h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.learns-list div a {
+  text-decoration: none;
+  color:#161111;
+  font-size: 12px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.read {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #e6941b;
+  border-radius: 40px;
+  font-size: 16px;
+  color:#161111;
+  letter-spacing: 1px;
+}
 
 
 @keyframes slideRight {
