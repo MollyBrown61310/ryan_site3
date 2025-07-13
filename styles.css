@@ -311,6 +311,11 @@ body {
   transition: all .40s ease;
 }
 
+.content-list li a:hover{
+  transform: scale(1.01)translateY(-5px);
+  color:#e6941b;
+}
+
 
 
 
