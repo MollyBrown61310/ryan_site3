@@ -20,7 +20,6 @@ body {
   z-index: 100;
 }
 
-
 .navbar a {
   display: inline-block;
   font-size: 25px;
@@ -32,15 +31,11 @@ body {
   opacity: 0;
   animation: slideTop 0.5s ease forwards;
   animation-delay: calc(0.2s * var(--i));
-  
 }
-
-
 
 .navbar a:hover {
   color: #e6941b;
 }
-
 
 .home {
   position: relative;
@@ -50,7 +45,7 @@ body {
   background: url(background_home2.png) no-repeat;
   background-size: cover;
   background-position: center;
-  display:flex;
+  display: flex;
   align-items: center;
   padding: 70px 10% 0;
 }
@@ -134,11 +129,9 @@ body {
 }
 
 .btn-box:hover {
-  box-shadow: 0 0 5px #161111, 
-  0 0 25px #e6941b, 0 0 50px #161111,
-  0 0 100px #e6941b, 0 0 200px #161111;
+  box-shadow: 0 0 5px #161111, 0 0 25px #e6941b, 0 0 50px #161111,
+    0 0 100px #e6941b, 0 0 200px #161111;
 }
-
 
 .about {
   background: url(background_home2.png) no-repeat;
@@ -148,13 +141,21 @@ body {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 1.5rem;
-  }
+}
 
 .about-img img {
   padding-bottom: 20%;
   max-width: 630px;
   height: auto;
   border-radius: 8px;
+}
+
+.about-text h2 {
+  font-size: 60px;
+}
+
+.about-text h2 span {
+  color: #e6941b;
 }
 
 @keyframes slideRight {
