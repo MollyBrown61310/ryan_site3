@@ -255,6 +255,17 @@ body {
   transform: translateY(-10px);
 }
 
+.contact{
+  background: url(background_home2.png);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 3rem;
+  padding-left: 30px;
+  
+}
+
+
 
 
 
