@@ -176,10 +176,29 @@ body {
    background-size: cover;
   background-position: center;
 }
+.sub-title {
+  text-align: center;
+  font-size: 60px;
+  padding-bottom: 70px;;
+}
+
+.sub-title span {
+  color:#e6941b;
+}
 
 
 .container {
   padding: 90px;
+}
+
+.learns-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
+}
+
+.services-list {
+  background: url(background_home2.png) no-repeat;
+  padding: 40px;
 }
 
 
