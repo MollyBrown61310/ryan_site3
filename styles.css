@@ -134,9 +134,20 @@ body {
 }
 
 .btn-box:hover {
-  box-shadow: 0 0 5px #161111, 0 0 25px #e6941b, 0 0 50px #161111,
-    0 0 100px #e6941b, 0 0 200px #161111;
+  box-shadow: 0 0 5px #161111, 
+  0 0 25px #e6941b, 0 0 50px #161111,
+  0 0 100px #e6941b, 0 0 200px #161111;
 }
+
+
+.about {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 @keyframes slideRight {
   0% {
