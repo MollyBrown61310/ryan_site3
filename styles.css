@@ -255,20 +255,6 @@ body {
   transform: translateY(-10px);
 }
 
-section{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-
-
-.heading{
-  text-align: center;
-  text-decoration: underline;
-  text-underline-offset: 10px;
-
-}
-
 
 
 
