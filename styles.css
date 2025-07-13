@@ -171,11 +171,11 @@ body {
   color:#161111;
   font-size: 20px;
   line-height: 1.4;
- 
-  background: url(background_home2.png);
+  background: url(background_home2.png) no-repeat;
   background-size: cover;
   background-position: center;
-}
+ }
+
 .sub-title {
   text-align: center;
   font-size: 60px;
@@ -256,15 +256,17 @@ body {
 }
 
 .contact{
-  background: url(background_home2.png);
+  
+  background: url(background_home2.png) no-repeat;
+  background-size: cover;
+  background-position: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 3rem;
   padding-left: 30px;
-  
+  }
 
-}
 .contact-text h2{
   font-size: 90px;
   line-height: 1;
@@ -346,10 +348,44 @@ body {
   position: relative;
 }
 
-.contact-form form input{
-  
+.contact-form form input,form textarea{
+
+  border: none;
+  outline: none;
+  width: 90%;
+  padding: 18px;
+  background:rgb(121, 184, 236);
+  color:#161111;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 25px #161111,
+  0 0 25px #161111;
 }
 
+.contact-form textarea{
+  resize: none;
+  height: 220px;
+}
+
+.contact-form form .send{
+  display: inline-block;
+  padding: 14px 60px;
+  background:#e6941b;
+  border-radius: 40px;
+  font-size: 16px;
+  color:#161111;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+  opacity: 0;
+  animation: slideTop 1s ease forwards;
+  animation-delay: 2s;
+  box-shadow: 0 0 25px #161111,
+  0 0 25px #161111;
+  
+}
 
 
 
