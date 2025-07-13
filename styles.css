@@ -316,7 +316,39 @@ body {
   color:#e6941b;
 }
 
+.content-icons i{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #161111;
+  border-radius: 50%;
+  font-size: 20px;
+  color:#161111;
+  text-decoration: none;
+  margin: 30px 15px 30px 0;
+  transition: .5s ease;
+  opacity: 0;
+  animation: sideLeft 1s ease forwards;
+  animation-delay: calc(.2s * var(--i));
+}
 
+
+.contact-icons i:hover{
+  background: #e6941b;
+  color:#161111;
+  box-shadow: 0 0 20px #161111;
+}
+
+.contact-form form{
+  position: relative;
+}
+
+.contact-form form input{
+  
+}
 
 
 
