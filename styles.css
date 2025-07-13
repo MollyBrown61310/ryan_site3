@@ -141,16 +141,21 @@ body {
 
 
 .about {
-
-  display: flex;
-  justify-content: center;
+  background: url(background_home2.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  flex-direction: column;
-  gap: 2rem;
-  padding-bottom: 6rem;
+  gap: 1.5rem;
+  }
+
+.about-img img {
+  padding-bottom: 20%;
+  max-width: 630px;
+  height: auto;
+  border-radius: 8px;
 }
-
-
 
 @keyframes slideRight {
   0% {
