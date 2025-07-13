@@ -172,7 +172,7 @@ body
   margin-bottom: 4rem;
 }
 
-#learns{
+#lessons{
   color:#161111;
   font-size: 20px;
   line-height: 1.4;
@@ -196,14 +196,14 @@ body
   padding: 90px;
 }
 
-.learns-list {
+.lessons-list {
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
   grid-gap: 40px;
   margin-top: 50px;
 }
 
-.learns-list div {
+.lessons-list div {
   background-color: transparent;
   padding: 40px;
   font-size: 13px;
@@ -215,19 +215,19 @@ body
   1px 1px 40px #161111
 }
 
-.learns-list div i {
+.lessons-list div i {
   font-size: 50px;
   margin-bottom: 30px;
 
 }
 
-.learns-list div h2 {
+.lessons-list div h2 {
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 15px;
 }
 
-.learns-list div a {
+.lessons-list div a {
   text-decoration: none;
   color:#161111;
   font-size: 12px;
