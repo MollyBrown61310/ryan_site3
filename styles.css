@@ -147,6 +147,7 @@ body {
   padding-bottom: 20%;
   max-width: 400px;
   height: auto;
+  width: 100%;
   border-radius: 8px;
 }
 
@@ -165,7 +166,7 @@ body {
   font-weight: 600;
   color: #161111;
   line-height: 1.7;
-  margin: 15px 0;
+  margin: 15px 0 30px;
 }
 
 
