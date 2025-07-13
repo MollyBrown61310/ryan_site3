@@ -270,9 +270,19 @@ body {
   line-height: 1;
   text-align: center;
 }
+
 .contact-text h2 span {
   color:#e6941b;
 }
+
+.contact-text h4{
+  margin: 15px 0;
+  color:aliceblue;
+  font-size: 20px;
+  font-weight: 600;;
+}
+
+
 
 
 
