@@ -143,7 +143,12 @@ body {
   gap: 1.5rem;
 }
 
-
+.about-img img {
+  padding-bottom: 20%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+}
 
 .about-text h2 {
   font-size: 60px;
