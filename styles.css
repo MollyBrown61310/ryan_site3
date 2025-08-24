@@ -181,6 +181,15 @@ body
   background-position: center;
  }
 
+ .lessons-text h2 {
+  font-size: 60px;
+}
+
+.lessons-text h2 span {
+  color: #e6941b;
+}
+
+
 .sub-title {
   text-align: center;
   font-size: 60px;
