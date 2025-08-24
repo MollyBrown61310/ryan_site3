@@ -189,18 +189,7 @@ body
   color: #e6941b;
 }
 
-
-.sub-title {
-  text-align: center;
-  font-size: 60px;
-  padding-bottom: 70px;;
-}
-
-.sub-title span {
-  color:#e6941b;
-}
-
-.about-text p {
+.lessons-text p {
   font-size: 20px;
   color: #161111;
   line-height: 1.4;
@@ -208,9 +197,9 @@ body
 }
 
 
-.container {
-  padding: 90px;
-}
+
+
+
 
 .lessons-list {
   display: grid;
@@ -361,7 +350,7 @@ body
     0 0 100px #e6941b, 0 0 200px #161111;
 }
 
-.songss-list div:hover{
+.songs-list div:hover{
   transform: translateY(-10px);
 }
 
