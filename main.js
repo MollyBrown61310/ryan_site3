@@ -4,5 +4,7 @@ var typed= new Typed(".text", {
     backSpeed: 100,
     backDelay: 1000,
     loop: true
+
+    
 });
 
