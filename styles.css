@@ -24,27 +24,9 @@ body {
   background-color: #161111;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-}
-
-.logo img {
-  width: 20px;
-}
-
-.logo h3 {
-  margin-left: 10px;
-  color: black;
-  text-decoration: none;
-  font-size: 20px;
-  font-family: "Poppins", sans-serif;
-}
 
 
-.navbar a:hover {
-  color: #e6941b;
-}
+
 
 .nav-links {
   display: flex;
