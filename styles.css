@@ -139,13 +139,16 @@ body
 }
 
 .about {
+ position: relative;
+  width: 100%;
+  justify-content: space-between;
+  height: 100vh;
   background: url(background_home2.png) no-repeat;
   background-size: cover;
   background-position: center;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
   align-items: center;
-  gap: 1.5rem;
+  padding: 70px 10% 0;
 }
 
 .about-img img {
@@ -173,12 +176,16 @@ body
 }
 
 #lessons{
-  color:#161111;
-  font-size: 20px;
-  line-height: 1.4;
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  height: 100vh;
   background: url(background_home2.png) no-repeat;
   background-size: cover;
   background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 70px 10% 0;
  }
 
 .sub-title {
@@ -262,13 +269,16 @@ body
 
 
 #songs{
-  color:#161111;
-  font-size: 20px;
-  line-height: 1.4;
+ position: relative;
+  width: 100%;
+  justify-content: space-between;
+  height: 100vh;
   background: url(background_home2.png) no-repeat;
   background-size: cover;
   background-position: center;
- }
+  display: flex;
+  align-items: center;
+  padding: 70px 10% 0;}
 
 .sub-title {
   text-align: center;
@@ -355,14 +365,16 @@ body
 
 .contact{
   
+ position: relative;
+  width: 100%;
+  justify-content: space-between;
+  height: 100vh;
   background: url(background_home2.png) no-repeat;
   background-size: cover;
   background-position: center;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
   align-items: center;
-  gap: 3rem;
-  padding-left: 30px;
+  padding: 70px 10% 0;
   }
 
 .contact-text h2{
