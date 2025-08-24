@@ -604,9 +604,7 @@ body {
     flex-wrap: wrap;
   }
 
-  .logo {
-    height: 30px
-  }
+
 
   .nav-links {
     display: none;
