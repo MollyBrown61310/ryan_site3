@@ -157,7 +157,7 @@ body
 }
 
 .about-text h2 {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .about-text h2 span {
@@ -173,8 +173,8 @@ body
 }
 
 #lessons{
-  color:#161111;
-  font-size: 20px;
+  
+  font-size: 50px;
   line-height: 1.4;
   background: url(background_home2.png) no-repeat;
   background-size: cover;
@@ -198,6 +198,13 @@ body
 
 .sub-title span {
   color:#e6941b;
+}
+
+.about-text p {
+  font-size: 20px;
+  color: #161111;
+  line-height: 1.4;
+  margin-bottom: 4rem;
 }
 
 
@@ -375,7 +382,7 @@ body
   }
 
 .contact-text h2{
-  font-size: 90px;
+  font-size: 50px;
   line-height: 1;
   text-align: center;
 }
